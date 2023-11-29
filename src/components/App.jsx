@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Section from './Section';
-import FeedbackOptions from './Feedbackoptions';
+import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 import Notification from './Notification';
+
 
 const App = () => {
   const [feedback, setFeedback] = useState({
